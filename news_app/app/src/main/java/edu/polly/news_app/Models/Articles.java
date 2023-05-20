@@ -4,7 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Articles {
-    @SerializedName("Sources")
+    @SerializedName("source")
     @Expose
     private  Sources sources;
 
